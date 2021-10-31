@@ -1,0 +1,26 @@
+.map{
+    margin-top: 48px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 98vw;
+  height: 87vh;
+}
+.ubicacion{
+  color: rgb(58,84,180);
+  margin-bottom: 10px;
+}
+.botones{
+  height: 30px;
+  width: 150px;
+  margin: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  box-shadow: 1px 1px 2px rgb(0, 0, 0);
+  cursor: pointer;
+}
+.botones:hover{
+ 
+  box-shadow:none;
+
+}

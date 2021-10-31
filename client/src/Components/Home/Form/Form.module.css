@@ -1,0 +1,92 @@
+.contenedor {
+    background-image: url("../../../media/foto1Service.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.total {
+    background-color: rgba(58, 84, 180, 0.596);
+    border: 2px solid #FEFBF3;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 60px;
+    font-family: 'Work Sans', sans-serif;
+   
+}
+
+.fp{
+    margin: 16px;
+}
+
+.df{
+    margin: 16px;
+}
+
+.fpb {
+    margin-top: 16px;
+}
+
+.dfb {
+    margin-top: 16px;
+}
+
+.db {
+    margin: 16px;
+}
+
+.nom{
+    margin: 16px;
+    cursor: pointer;
+}
+
+.ape{
+    margin: 16px;
+    cursor: pointer;
+}
+
+.cump{
+    margin: 16px;
+    cursor: pointer;
+}
+
+.cel{
+    margin: 16px;
+    cursor: pointer;
+}
+
+.mail {
+    margin:  16px;
+    cursor: pointer;
+}
+
+.contra{
+    margin: 16px;
+    cursor: pointer;
+}
+
+.serv {
+    margin: 16px;
+    cursor: pointer;
+}
+
+.btn{
+    margin: 16px;
+    border-radius: 8px;
+    padding: 6px 6px;
+    margin-left: 250px;
+    font-family: 'Work Sans', sans-serif;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.btn:hover{
+    background-color: #f1e26d
+}
+.serv{
+    background-color: #e7e0c9ec;
+    border: 1px solid white;
+    color:rgb(58, 84, 180);
+    text-decoration:none;
+    font-family: sans-serif;
+}

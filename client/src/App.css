@@ -1,0 +1,11 @@
+.app{
+  font-family: 'Roboto', sans-serif;
+  height: 100% !important;
+  background-color: rgb(254,247, 237);
+}
+
+.leaflet-container{
+  width: 330px;
+  height: 300px;
+  z-index: 99;
+}

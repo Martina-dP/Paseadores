@@ -1,0 +1,19 @@
+.conteiner{
+    border: 1px solid black;
+    width: 120px;
+    height: 140px;
+    margin: 6px;
+    /* animation: cambio 30s infinite alternate linear; */
+    background-color: rgb(248, 236, 219);
+}
+
+.nombre {
+    font-size: 14px;
+    margin-top: 12px;
+    color: rgb(58,84,180);
+}
+
+.img{
+    width: 118px;
+    height: 90px;
+}

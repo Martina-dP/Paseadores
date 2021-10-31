@@ -1,0 +1,67 @@
+.container{
+    background-color: rgb(254,247, 237);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario{
+    width: 700px;
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 2px 10px rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulario h1{
+    margin: 20px;
+    color: rgb(58,84,180);
+  }
+  
+  .formulario textarea{
+    margin: 20px;
+    padding: 10px;
+    width: 90%;
+    height: 150px;
+    border: solid rgb(192, 192, 192) 1px;
+    resize: none  ;
+  }
+  
+  .containerBtn{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .edit{
+    width: 150px;
+    height: 30px;
+    border:none;
+    background-color: rgb(58,84,180);
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    cursor: pointer;
+  }
+  .volver{
+    border: none;
+    background-color: green;
+    color: white;
+    height: 30px;
+    width: 150px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+  .edit:hover,
+  .volver:hover{
+    box-shadow: none;
+  }
+  

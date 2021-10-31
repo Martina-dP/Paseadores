@@ -1,0 +1,302 @@
+.container {
+  background-color: rgb(254, 247, 237);
+  min-height: 100vh;
+  z-index: -3;
+  width: 100vw !important;
+}
+
+.containerDOS {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.costado {
+  grid-column: 1 span;
+  border: none;
+  box-shadow: 1px 2px 10px rgb(0, 0, 0);
+  background-color: rgb(254, 247, 237);
+  width: 220px;
+  height: 600px;
+  margin: 125px 20px 0 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  z-index: 10;
+}
+.fotoFondo {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  top: 300px;
+  right: 0px;
+  z-index: 1;
+  object-fit: cover;
+  object-position: bottom;
+  opacity: 0.7;
+}
+.fotoFondo2 {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute;
+  top: 600px;
+  left: 100px;
+  z-index: 1;
+  object-fit: cover;
+  object-position: bottom;
+  opacity: 0.7;
+}
+.fotoFondo3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1500px;
+  left: 100px;
+  z-index: 1;
+  object-fit: cover;
+  object-position: bottom;
+  opacity: 0.7;
+}
+.fotoFondo4 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  top: 1000px;
+  right: 0px;
+  z-index: 1;
+  object-fit: cover;
+  object-position: bottom;
+  opacity: 0.7;
+}
+
+.cards {
+  flex-grow: 2;
+  margin-top: 100px;
+  grid-column: 6 span;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  z-index: 2;
+}
+.rep {
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: rgb(58, 84, 180) solid 3px;
+  background-color: rgb(254, 247, 237);
+  cursor: pointer;
+  outline: 0;
+  width: 170px;
+  height: 30px;
+}
+
+.pre {
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: rgb(58, 84, 180) solid 3px;
+  background-color: rgb(254, 247, 237);
+  cursor: pointer;
+  outline: 0;
+  height: 30px;
+  width: 170px;
+}
+
+.pri {
+  margin-bottom: 40px;
+  border: none;
+  /* border-bottom: black solid 3px; */
+  cursor: pointer;
+  font-size: 25px;
+  outline: 0;
+  height: 30px;
+  /* border-bottom: solid 3px rgb(58,84,180); */
+  /* margin-bottom: 10px; */
+}
+
+.precio hr {
+  height: 3px;
+  background-color: rgb(58, 84, 180);
+  width: 80px;
+  margin-left: 70px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userContainer {
+  margin-left: 250px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(254, 247, 237);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.p {
+  background-color: rgb(58, 84, 180);
+  color: rgb(173, 173, 173);
+}
+
+.opciones {
+  text-decoration: none;
+}
+.opciones p {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 7px;
+  font-weight: 500;
+}
+
+.dos {
+  text-decoration: none;
+}
+
+.dos:hover {
+  color: black;
+  font-weight: 500;
+  border-bottom: solid blue 1px;
+}
+
+.min {
+  margin-top: 18px;
+  border: none;
+  border-bottom: solid rgb(58, 84, 180) 2px;
+  background-color: rgb(254, 247, 237);
+  width: 170px;
+  margin-bottom: 10px;
+  overflow: none;
+}
+
+.max {
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: solid rgb(58, 84, 180) 2px;
+  background-color: rgb(254, 247, 237);
+  width: 170px;
+  overflow: none;
+}
+
+.btn {
+  width: 100px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: rgb(58, 84, 180);
+  color: white;
+  height: 20px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: none;
+}
+.ubi {
+  font-size: 24px;
+  border-bottom: solid 3px rgb(58, 84, 180);
+}
+
+.zon {
+  margin: 12px;
+  border: none;
+  border-bottom: solid rgb(58, 84, 180) 2px;
+  background-color: rgb(254, 247, 237);
+  width: 170px;
+  overflow: none;
+}
+
+.hora {
+  margin-top: 0px;
+  border: none;
+  border-bottom: solid rgb(58, 84, 180) 2px;
+  background-color: rgb(254, 247, 237);
+  width: 170px;
+  margin-bottom: 10px;
+  overflow: none;
+  cursor: pointer;
+}
+
+.serv {
+  margin-top: 18px;
+  border: none;
+  border-bottom: solid rgb(58, 84, 180) 2px;
+  background-color: rgb(254, 247, 237);
+  width: 170px;
+  margin-bottom: 10px;
+  overflow: none;
+  cursor: pointer;
+}
+.atc {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: none;
+  background-color: rgb(58, 84, 180);
+  color: white;
+  height: 20px;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.atc:hover {
+  box-shadow: none;
+}
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+}
+
+.prev {
+  width: 50px;
+  font-size: 15px;
+  height: 20px;
+  border: none;
+  margin: 10px 10px 20px 0;
+  color: white;
+  background-color: rgb(58, 84, 180);
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+.next {
+  width: 50px;
+  font-size: 15px;
+  height: 20px;
+  border: none;
+  margin: 10px 10px 20px 0;
+  color: white;
+  background-color: rgb(58, 84, 180);
+  cursor: pointer;
+  box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+.next:hover {
+  box-shadow: none;
+}
+.prev:hover {
+  box-shadow: none;
+}
+/* 
+.premium{
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 220px;
+    height: 220px;
+} */
+
+.carrusel {
+  margin-left: 405px;
+  margin-top: 100px;
+}

@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    background-color: rgb(254,247, 237);
+    min-height: 100vh;
+    max-height: auto;
+}
+
+.containerInfo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.descripcion{
+    width: 70%;
+    height: 70%;
+    margin-top: 100px;
+    text-align: center;
+    background-color: inherit;
+}
+.title{
+    color:rgb(58,84,180);
+    border-bottom: 2px solid rgb(58,84,180);
+    margin-bottom: 20px;
+}
+.containerInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    height: 30px;
+    font-size: 18px;
+    padding: 2px;
+    width: 250px;
+    border: 1px solid rgb(58,84,180);
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: rgb(254,247, 237);
+}
+.input::placeholder{
+    color:rgb(58,84,180);
+    font-weight: 500;
+}
+.inputBtn{
+    margin-bottom: 15px;
+    width: 125px;
+    height: 30px;
+    font-size: 18px;
+    padding: 2px;
+    border: 1px solid rgb(58,84,180);
+    border-radius: 3px;
+    color:rgb(254,247, 237);
+    font-weight: 500;
+    background: rgb(58,84,180);
+    transition: .3s;
+}
+
+.inputBtn:hover{
+    background:rgb(254,247, 237);
+    color:rgb(58,84,180);
+}
+.btn{
+    margin-bottom: 15px;
+    width: 250px;
+    height: 30px;
+    font-size: 18px;
+    padding: 2px;
+    border: 1px solid rgb(58,84,180);
+    margin: 0 20px 0 20px;
+    color: rgb(254,247, 237);
+    font-weight: 500;
+    background:rgb(58,84,180);
+    transition: .3s;
+}
+.btn:hover{
+    background: rgb(254,247, 237);
+    color:rgb(58,84,180);
+}
+.subTitle{
+    color:rgb(58,84,180);
+    margin-top: 30px;
+}
+
+.userContainer{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+/* 
+.personalInformation{
+    grid-column: 1span;
+    background-color: white;
+    width: 400px;
+    height: 750px;
+    margin-left: 100px;
+}
+
+.fotoPerfil{
+    height: 212px;
+    width: 212px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top:90px;
+    left: 200px;
+    z-index: 1;
+}
+
+.borderFoto{
+    background-color: rgb(58,84,180, 0.2);
+    width: 100%;
+    height: 330px;
+}
+
+.fotoPerfil img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top:6px;
+    left: 6px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.containerPerfil{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: auto;
+}
+
+.informacion{
+    margin: 30px 0 0 25%;
+}
+
+.informacion ul{
+    width: 300px;
+    margin-top: 30px;
+}
+
+.informacion h2{
+    margin: 0px auto 0 auto;
+    width: auto;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(58,84,180);
+} */
+/*
+.liPhone{
+    margin: 10px 0 20px 0;
+    list-style-image: url("../../media/iconPhone.png");
+    font-family: 'Nunito', sans-serif;
+}
+
+.liEmail{
+    margin: 10px 0 20px 0;
+    list-style-image: url("../../media/iconEmail.png");
+    font-family: 'Nunito', sans-serif;
+}
+
+.liUbication{
+    margin: 10px 0 20px 0;
+    list-style-image: url("../../media/iconUbication.png");
+    font-family: 'Nunito', sans-serif;
+}
+*/
+/* .editContainerInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-right: 70px;
+}
+
+.editDescription{
+    width: 150px;
+    height: 25px;
+    background-color: rgb(58,84,180,0.8);;
+    border: none;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    margin: 5px 20px 10px 0;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.editDescription:hover{
+    box-shadow: none;
+}
+.edit:hover{
+    box-shadow: none;
+}
+
+.caracteristicas{
+    grid-column: 1span;
+    width: 100%;
+}
+
+
+
+.descripcion h2{
+    padding: 10px ;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(58,84,180);
+}
+
+.textDescriptionNew{
+    width: 600px;
+    height: auto;
+    overflow-wrap:break-word
+}
+
+.descripcion p{
+    padding: 10px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.editContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-decoration: none;
+}
+
+.reputacion{
+    margin: 20px;
+    width: 600px;
+    height: auto;
+    background-color: white;
+    padding-bottom: 10PX;
+}
+
+.reputacion h2{
+    padding: 10px ;
+    font-family: 'Work Sans', sans-serif;
+    color:rgb(58,84,180);
+}
+
+.reputacion p{
+    font-size: 30px;
+    color: yellow;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.textDescription{
+    width:570px ;
+}  */
+
+
+
+
+
+

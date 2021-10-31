@@ -1,0 +1,81 @@
+.card{
+     
+    /* background-image: url("../../../media/fondo4.jpg");
+    background-size: cover; */
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    background-color: rgba(10, 94, 10, 0.4);;
+    margin: 20px;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.izquierda{
+width: 100%;
+height: 50%;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.derecha{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.image{
+    width: 130px;
+    height: 130px;
+    display: flex; 
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    border: solid 5px white;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 6px;
+    border: 1px;
+    width: 100%;
+    background-color: white;
+    padding: 2px 4px;
+}
+
+.servicio{
+    font-size: 15px;
+    border: 1px;
+    background-color: white;
+    width: 100%;
+    padding: 2px 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 200;
+}
+
+.prueba{
+margin-top: -6px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+

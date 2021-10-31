@@ -1,0 +1,313 @@
+[33mcommit a54be61067e7eae061433fd355bee79150fc6a7e[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Martina del Pino <81974943+Martina-dP@users.noreply.github.com>
+Date:   Thu Oct 21 19:52:05 2021 -0300
+
+    Detalles (#190)
+    
+    * .
+    
+    * cambiosVarios
+
+[33mcommit dc15fdd5e4fe8175810f1f51db980ba789c52eee[m
+Author: Chelo <86071721+chelo900@users.noreply.github.com>
+Date:   Thu Oct 21 19:42:34 2021 -0300
+
+    Popup precio (#189)
+    
+    * .
+    
+    * jwt fixed
+    
+    * cleaning
+    
+    * clean
+    
+    * popup precio
+    
+    * Update index.js
+
+[33mcommit ae543cdfc84c8c572cb7f1d688834510d8b6cdb5[m
+Author: Gerardo Kohatus <82271110+Ger06@users.noreply.github.com>
+Date:   Thu Oct 21 18:26:46 2021 -0300
+
+    mapa Preferences (#188)
+    
+    * preferences
+    
+    * Update PerfilWalker.jsx
+    
+    * preferences
+    
+    * delimg
+    
+    * preferencias, turnos
+    
+    * preferences
+    
+    * Location
+
+[33mcommit 546864539da410c34db5e62bccef24d390f68ecd[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Thu Oct 21 17:19:12 2021 -0300
+
+    mapa en el perfil del cliente (#187)
+
+[33mcommit 578780ab4210bcb904d612caab78cd55b668e5d0[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Thu Oct 21 14:52:09 2021 -0300
+
+    funcionamiento contacto landing (#186)
+
+[33mcommit a7a52bfccd4fc16a643629b5631ca134f76732bc[m
+Author: Chelo <86071721+chelo900@users.noreply.github.com>
+Date:   Thu Oct 21 11:24:31 2021 -0300
+
+    Random walkers (#184)
+    
+    * .
+    
+    * jwt fixed
+    
+    * cleaning
+    
+    * clean
+    
+    * random walkers
+    
+    * random done, fix filters done
+    
+    * random,filters done
+
+[33mcommit 0bced2d88806bc659e3836bf62d4e78ebbfe463d[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Thu Oct 21 10:49:39 2021 -0300
+
+    arreglo (#183)
+
+[33mcommit af2928916f1a84231054ccf8a2b37992c4292c44[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Thu Oct 21 10:18:13 2021 -0300
+
+    arreglos mapa y edit paseador (#182)
+
+[33mcommit 9457743c3aad22b94eab67ec0742843b61d69b04[m
+Author: Martina del Pino <81974943+Martina-dP@users.noreply.github.com>
+Date:   Wed Oct 20 23:57:57 2021 -0300
+
+    Bene (#181)
+    
+    * a
+    
+    * a
+    
+    * .
+    
+    * .
+    
+    * varios
+    
+    * cambios varios
+
+[33mcommit e8a3233dfdd1ab2a1b3108eb4ca4f28796e9a1bb[m
+Author: Felipe Ballarino <80782336+Felipeballarino@users.noreply.github.com>
+Date:   Wed Oct 20 23:57:12 2021 -0300
+
+    Estilos2 (#180)
+    
+    * 20.10
+    
+    * 20.10
+
+[33mcommit 000eda7ed8e16ecd9d12ddce26af964628b70958[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Wed Oct 20 21:38:05 2021 -0300
+
+    Seleccion manual de ubicacion en el mapa (#179)
+
+[33mcommit 1fc7afac879aec364dd65bb9ad5fef5c1ffbb196[m
+Author: Nicolas <76431460+Edenoor@users.noreply.github.com>
+Date:   Wed Oct 20 20:04:23 2021 -0300
+
+    Chat 1 (#178)
+    
+    * Back chat and some bugs
+    
+    * chatchatchat
+
+[33mcommit fb9513e397814a9724a1a853196b70dba5a1c09e[m
+Author: Felipe Ballarino <80782336+Felipeballarino@users.noreply.github.com>
+Date:   Wed Oct 20 19:38:25 2021 -0300
+
+    Estilos (#177)
+    
+    * 20.10
+    
+    * 20.10
+    
+    * 20.10
+
+[33mcommit 12bd01844c5dcf027edad85ebb1a6fe051ebf8c5[m
+Author: Gerardo Kohatus <82271110+Ger06@users.noreply.github.com>
+Date:   Wed Oct 20 11:20:15 2021 -0300
+
+    Eliminar fotos que sube el paseador (#176)
+    
+    * borrar imagenes perfil paseador
+    
+    * Update PerfilWalker.jsx
+
+[33mcommit 0e774cff1fd7d3b6c0e58519a7486990d811c377[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Wed Oct 20 09:22:43 2021 -0300
+
+    logout a la landing y confirmacion acciones admin (#175)
+
+[33mcommit 294a745677387e1c942967c93a2a01fca5d1b126[m
+Author: Nicolas <76431460+Edenoor@users.noreply.github.com>
+Date:   Tue Oct 19 21:28:28 2021 -0300
+
+    chat room (#174)
+
+[33mcommit e7ec2c4cac1efa7a930ec5ef70ca8404c574ccc0[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Tue Oct 19 18:04:40 2021 -0300
+
+    direcciones de los botones de la landing (#173)
+
+[33mcommit f170c4b864eaf2580d23448c1d913df3a2d106eb[m
+Author: Nicolas <76431460+Edenoor@users.noreply.github.com>
+Date:   Tue Oct 19 16:43:46 2021 -0300
+
+    Edit horario (#172)
+
+[33mcommit 648fa91510d4a38903d540a0354165e62a405cff[m
+Author: Nicolas <76431460+Edenoor@users.noreply.github.com>
+Date:   Tue Oct 19 16:27:51 2021 -0300
+
+    Socket (#171)
+    
+    * Chat
+    chat
+    
+    * get_pasadores_turno?
+    
+    * get preferences
+
+[33mcommit 4e940bd810234d1e41b50a0b8a79cc4fb1ae81de[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Tue Oct 19 15:53:04 2021 -0300
+
+    arreglos fav, perfil paseador (#170)
+
+[33mcommit 481090943150983b922975dfa023cdc0d9a12aec[m
+Author: Gerardo Kohatus <82271110+Ger06@users.noreply.github.com>
+Date:   Tue Oct 19 15:45:13 2021 -0300
+
+    foto perfil cliente (#169)
+
+[33mcommit 56dd08019b173fc101684296ac62630d6a1b3f92[m
+Author: Chelo <86071721+chelo900@users.noreply.github.com>
+Date:   Tue Oct 19 15:08:49 2021 -0300
+
+    filtros y searchbar (#168)
+    
+    * jwt fixed
+    
+    * searchbar fixed
+    
+    * filtros y searchbar
+    
+    * m
+    
+    * filtros y searchbar
+
+[33mcommit 684ef462f32872b7f76e12af7abfc06dafa63031[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Tue Oct 19 12:11:09 2021 -0300
+
+    Envio mail cuando paseador paga premium (#167)
+
+[33mcommit e5a21886337e236d54e4712a29661937e3096ff2[m
+Author: Ger06 <82271110+Ger06@users.noreply.github.com>
+Date:   Tue Oct 19 10:22:37 2021 -0300
+
+    Select preferences (#166)
+    
+    * select responsive
+    
+    * preferences, ubicacion
+    
+    * Select ubicacion
+    
+    * agenda
+
+[33mcommit c59a3280d40a459c33e4df433c9ab457924f8a0c[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Tue Oct 19 10:10:17 2021 -0300
+
+    push al login y arreglo admin (#165)
+
+[33mcommit a49a88cf3f0a13c1919c3550f07ad165e0d913ae[m
+Author: Nicolas <76431460+Edenoor@users.noreply.github.com>
+Date:   Mon Oct 18 22:41:25 2021 -0300
+
+    Search Bar and fix some Bugs in Filters (#164)
+
+[33mcommit a0740e4a20f7e374b9eb27ab8fcaca81a79846ac[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Mon Oct 18 19:42:35 2021 -0300
+
+    Mapa gral y arreglo edit client (#163)
+
+[33mcommit 7cf9fc79c9a41794a510c8df9bab48b36c6b2cb0[m[33m ([m[1;32mmain[m[33m)[m
+Author: Nicolas <76431460+Edenoor@users.noreply.github.com>
+Date:   Mon Oct 18 13:32:38 2021 -0300
+
+    Middleware (#162)
+    
+    * middleware
+    
+    * middleware
+
+[33mcommit 37a4a5752f374125bb5c44fdb68bad7433c9878f[m
+Author: Nicolas <76431460+Edenoor@users.noreply.github.com>
+Date:   Mon Oct 18 12:56:34 2021 -0300
+
+    Fix (#161)
+    
+    * asdasd
+    asd
+    
+    * Arreglo Ubicacion
+
+[33mcommit 8ef94f517c83bf5b6d8236f644361903dca9dd89[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Mon Oct 18 12:31:39 2021 -0300
+
+    Círculo marcador del mapa (#160)
+
+[33mcommit 5cccdb415e4c6207b302c89e1c927413fe7aa1cd[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Mon Oct 18 00:12:33 2021 -0300
+
+    Mapas y geolocalizacion (#159)
+
+[33mcommit 810ede5d83e061a682739bfa09f86da8580aa95b[m[33m ([m[1;31morigin/form-preferences[m[33m)[m
+Author: Ger06 <82271110+Ger06@users.noreply.github.com>
+Date:   Sat Oct 16 10:01:09 2021 -0300
+
+    Update Edit.jsx (#158)
+
+[33mcommit fe812124f6df4205ecfccfe7fe603ecd5a789042[m
+Author: Claudio Pentivolpi <83839256+cepentivolpi@users.noreply.github.com>
+Date:   Fri Oct 15 22:59:58 2021 -0300
+
+    Mails de solicitud y de respuesta de turnos (#157)
+
+[33mcommit 4a4e27e3ea9db6f7e5894cd56523e7950ecc7a5d[m
+Author: Chelo <86071721+chelo900@users.noreply.github.com>
+Date:   Fri Oct 15 20:05:40 2021 -0300
+
+    jwt fixed (#156)
+
+[33mcommit af83b0c7f4e541a5

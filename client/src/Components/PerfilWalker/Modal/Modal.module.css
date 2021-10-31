@@ -1,0 +1,33 @@
+.modal{
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.75);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalOpen{
+    display: flex;    
+}
+.container{
+    position: relative;   
+    background-color: #fff;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.modalClose{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.modalClose:hover{
+    box-shadow: none;
+    cursor: pointer;
+}
