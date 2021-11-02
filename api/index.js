@@ -71,7 +71,7 @@ io.on("connection", (socket) => {
 
 // Syncing all the models at once.
 conn.sync({ force: true }).then(() => {
-  servidor.listen({ port: process.env.PORT || 3001 }, () => {
-    console.log("%s listening at 3001"); // eslint-disable-line no-console
+  servidor.listen({ port: process.env.PORT || 3000 }, () => {
+    console.log("%s listening at 3000"); // eslint-disable-line no-console
   });
 });
