@@ -35,7 +35,7 @@
   z-index: 1;
   object-fit: cover;
   object-position: bottom;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .fotoFondo2 {
   width: 400px;
@@ -47,7 +47,7 @@
   z-index: 1;
   object-fit: cover;
   object-position: bottom;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .fotoFondo3 {
   width: 300px;
@@ -59,7 +59,7 @@
   z-index: 1;
   object-fit: cover;
   object-position: bottom;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 .fotoFondo4 {
   width: 350px;
@@ -71,7 +71,7 @@
   z-index: 1;
   object-fit: cover;
   object-position: bottom;
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
 .cards {

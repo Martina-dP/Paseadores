@@ -1,8 +1,8 @@
 import React from 'react'
 
 function Preferencias({ preferencias }) {
-    let inicio = preferencias.comienzo_jornada?.slice(0, -3)
-    let final = preferencias.fin_jornada?.slice(0, -3)
+    let inicio = preferencias.comienzo_jornada?.slice(0, -6)
+    let final = preferencias.fin_jornada?.slice(0, -6)
 
     let turno = preferencias.dias_trabajo?.toString()
     let paseos = preferencias.duracion_paseos?.slice(0, -6)

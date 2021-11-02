@@ -61,6 +61,7 @@ const [mapa, setMapa] = useState("");
             <ul>
               <li className={style.liPhone}>{Client.phone}</li>
               <li className={style.liEmail}>{Client.email}</li>
+              <li className={style.liUbication}>{Client.ubication}</li>
             </ul>
             <Link
               to={`/Cliente/editInformation/${id}`}
@@ -92,57 +93,6 @@ const [mapa, setMapa] = useState("");
                <span class="material-icons-outlined">edit</span>
               </button>
             </Link>
-          </div>
-          <div className={style.local}>
-            <h2 className={style.ubicacion}>Ubicacion:</h2>
-            <button
-              className={style.botones}
-              onClick={(e) => {
-                handleOnClick1(e);
-              }}
-            >
-              Detectar 
-            </button>
-
-            <button
-              className={style.botones}
-              onClick={(e) => {
-                handleOnClick2(e);
-              }}
-            >
-              Agregar  manualmente
-            </button>
-          
-              <div className={style.mapaNuevo} >
-                  {Client.latitude && mapa === "" && (
-                    <SelectorMap
-                    
-                      name={Client.name}
-                      surname={Client.surname}
-                      latitude={Client.latitude}
-                      longitude={Client.longitude}
-                      client={true}
-                    />
-                  )}
-                  {mapa === "auto" && (
-                    <LocationMarker
-                      name={Client.name}
-                      surname={Client.surname}
-                      latitude={Client.latitude}
-                      longitude={Client.longitude} 
-                      client={true}
-                    />
-                  )}
-                  {mapa === "manual" && (
-                    <AddMarkerToClick
-                      name={Client.name}
-                      surname={Client.surname}
-                      latitude={Client.latitude}
-                      longitude={Client.longitude}
-                      client={true}
-                    />
-                  )}
-              </div>
           </div>
           <div className={style.favoritos}>
             <h2 className={style.favTitulo}>Favoritos</h2>

@@ -54,10 +54,10 @@
     margin-bottom: 20px;
 }
 .imageContainer{
-    background-color: rgb(58,84,180, 0.2);
+    /* background-color: rgb(58,84,180, 0.2); */
+    background-color: rgba(255, 217, 0, 0.7);
     display: flex;
     flex-direction: column;
-
     align-items: center;
 }
 
@@ -73,7 +73,7 @@
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    margin: 40px 30px 10px 30px;
+    margin: 110px 30px 10px 30px;
     object-fit: cover;
     object-position: center;
     border: solid white 4px;

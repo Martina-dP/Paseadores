@@ -60,11 +60,6 @@ module.exports = (sequelize) => {
         type: DataTypes.STRING,
         allowNull: true,
       },
-      reputation: {
-        type: DataTypes.ENUM("0", "1", "2", "3", "4", "5"),
-        defaultValue: "0",
-        allowNull: false,
-      },
       service: {
         type: DataTypes.ENUM("Paseador", "Cuidador", "Paseador y Cuidador"),
         allowNull: false,

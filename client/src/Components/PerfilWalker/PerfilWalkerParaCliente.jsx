@@ -46,6 +46,7 @@ const PerfilWalker = () => {
 
   const history = useHistory();
 
+  const Walkers = useSelector(state => state.allPaseadores)
   const Walker = useSelector((state) => state.detailWalker);
   const comment = useSelector((state) => state.comment);
   const score = useSelector((state) => state.score);
@@ -78,7 +79,6 @@ const PerfilWalker = () => {
     }
     dispatch(getPaseadorForId(id, token));
     dispatch(getClienteForId(idClient, token));
-    dispatch(getAssessment(id, token));
     dispatch(getOrdenReputacion({ userId: id, clientId: idClient }, token));
   }, [dispatch, id, token]);
 
@@ -274,28 +274,28 @@ const PerfilWalker = () => {
     margin-left: -
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    background-color: rgb(58, 84, 180, 0.8);;
-    color: white;
+    background-color: rgba(255, 217, 0, 0.5);
+    color: blue;
   }
   .fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    background-color: rgb(58, 84, 180, 0.8);;
-    color: white;
+    background-color: rgba(255, 217, 0, 0.5);
+    color: blue;
   }
   .fc .fc-toolbar-title {
     font-size: 1.10em;
     margin: 0;
-    color: black;
+    color: blue;
   }
   .fc .fc-toolbar-title:after {
     content: 'Solicita tu turno';
     display: block;
-    color: rgb(58, 84, 180, 0.8);
+    color: rgba(255, 217, 0, 0.5);
   }
   .fc .fc-button-primary {
     border-color: var(--fc-button-border-color, #2C3E50);
-    background-color:rgb(58, 84, 180, 0.8);
+    background-color: rgba(255, 217, 0, 0.5);
 }
 .fc-timegrid-event-harness-inset .fc-timegrid-event, .fc-timegrid-event.fc-event-mirror, .fc-timegrid-more-link{
   width: 12px;
@@ -309,8 +309,8 @@ const PerfilWalker = () => {
 .fc .fc-scroller {
   -webkit-overflow-scrolling: touch;
 
-  background-color: gokzuw .fc .fc-button-primary:disabled { border-color: #2C3E50; border-color: var(--fc-button-border-color,rgb(58,84,180,0.8);); background-color: rgb(58, 84, 180, 0.8);};
-  background-color: rgb(203, 233, 251);
+  background-color: gokzuw .fc .fc-button-primary:disabled { border-color: #2C3E50; border-color: var(--fc-button-border-color,rgba(255, 217, 0, 0.5);); background-color: rgba(255, 217, 0, 0.5);};
+  background-color: rgba(255, 217, 0, 0.5);
   }`
 
   return (
@@ -352,16 +352,17 @@ const PerfilWalker = () => {
             <ul>
               <li className={style.liService}>{Walker.service}</li>
               <li className={style.libirth}>{Walker.birth_day}</li>
-              {/* <li className={style.liUbication}>{Walker.ubication}</li> */}
-              <li className={style.liRep}>Score: {score?.toFixed(1)}</li>
+              <li className={style.liUbication}>{Walker.ubication}</li>
             </ul>
           </div>
-          <MapView
+          {/* <MapView
+          className={style.mapa}
             latitude={Walker.latitude}
             longitude={Walker.longitude}
             name={Walker.name}
             surname={Walker.surname}
-          />
+            padding={0}
+          /> */}
         </div>
         <div className={style.caracteristicas}>
           <div className={style.descripcionWalker}>
@@ -385,71 +386,7 @@ const PerfilWalker = () => {
             </div>
           </div>
           <div className={style.reputacion}>
-            {reputacion && (
-              <div className={style.opinion}>
-                <h2>Deja tu opinon:</h2>
-                <button
-                  className={style.prueba}
-                  onClick={(e) => {
-                    estrella(e, 1);
-                  }}
-                >
-                  {input.score > 0 ? (
-                    <img src={patitallena} alt="" />
-                  ) : (
-                    <img src={patitavacia} alt="sas" />
-                  )}
-                </button>
-                <button
-                  className={style.prueba}
-                  onClick={(e) => {
-                    estrella(e, 2);
-                  }}
-                >
-                  {input.score > 1 ? (
-                    <img src={patitallena} alt="" />
-                  ) : (
-                    <img src={patitavacia} alt="sas" />
-                  )}
-                </button>
-                <button
-                  className={style.prueba}
-                  onClick={(e) => {
-                    estrella(e, 3);
-                  }}
-                >
-                  {input.score > 2 ? (
-                    <img src={patitallena} alt="" />
-                  ) : (
-                    <img src={patitavacia} alt="sas" />
-                  )}
-                </button>
-                <button
-                  className={style.prueba}
-                  onClick={(e) => {
-                    estrella(e, 4);
-                  }}
-                >
-                  {input.score > 3 ? (
-                    <img src={patitallena} alt="" />
-                  ) : (
-                    <img src={patitavacia} alt="sas" />
-                  )}
-                </button>
-                <button
-                  className={style.prueba}
-                  onClick={(e) => {
-                    estrella(e, 5);
-                  }}
-                >
-                  {input.score > 4 ? (
-                    <img src={patitallena} alt="" />
-                  ) : (
-                    <img src={patitavacia} alt="sas" />
-                  )}
-                </button>
-              </div>
-            )}
+            
             {reputacion && (
               <form className={style.formulario} onSubmit={handlerSubmit}>
                 <textarea
@@ -466,11 +403,11 @@ const PerfilWalker = () => {
                 </div>
               </form>
             )}
-            <Link to={`/messenger`} className={style.editContainerInfo}>
-              <button className={style.editDescription}>
-                <img src={chat2} alt="chat2" />
-              </button>
-            </Link>
+            <div className= {style.btnChat}>
+              <Link to={`/messenger`} >
+                <button className={style.editchat}> Chat individual </button>
+              </Link>
+            </div>
           </div>
           <div className={style.fotos}>
             <div className={style.fondoFotos}>
@@ -504,11 +441,10 @@ const PerfilWalker = () => {
         <div className={style.padding}>
           <h2>Solicita un Turno:</h2>
           <div>
-            <span>🟢 Paseos Confirmados</span>
-            <span>🟡 Pendientes</span>
-          </div>
-          <div>
+            {preferencias.turno && preferencias.turno?
             <StyleWrapper>
+              <span>🟢 Paseos Confirmados</span>
+              <span>🟡 Pendientes</span>
             <FullCalendar
               eventClassNames={style.calendar}
               plugins={[dayGridPlugin, timeGridPlugin, interactionPlugin]}
@@ -537,16 +473,17 @@ const PerfilWalker = () => {
               }
             />
             </StyleWrapper>
-
-          </div>
+            : <p className={style.noTurno}>No se puede reservar turno con este paseador</p>
+          }
+          </div> 
         </div>
       </div>
 
-      <Link to={`/chat`} className={style.editContainerChat}>
+      {/* <Link to={`/chat`} className={style.editContainerChat}>
         <button className={style.editchat}>
           <img src={chat} alt="chat" title="Conectar" />
         </button>
-      </Link>
+      </Link> */}
       {
               open ? (
                 <div className={style.modal}>

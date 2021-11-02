@@ -1,9 +1,9 @@
 .card{
      
-    /* background-image: url("../../../media/fondo4.jpg");
-    background-size: cover; */
+    background-image: url("../../../media/fondo11.jpg");
+    background-size: cover;
     box-shadow: 1px 1px 2px rgb(0, 0, 0);
-    background-color: rgba(10, 94, 10, 0.4);;
+    /* background-color: rgba(10, 94, 10, 0.4);; */
     margin: 20px;
     width: 250px;
     height: 300px;

@@ -254,6 +254,9 @@ function EditPreferencias() {
                   <option value="01"> 1 hora</option>
                   <option value="02">2 horas</option>
                   <option value="03">3 horas</option>
+                  <option value="04">4 horas</option>
+                  <option value="05">5 horas</option>
+                  <option value="06">6 horas</option>
                 </select>
               </label>
             </div>

@@ -1,7 +1,8 @@
 
 .container {
   background-color: rgb(254, 247, 237);
-  min-height: 100vh;
+  width: 100%;
+  height: auto;
   margin: 0;
   z-index: -2;
   position: absolute;
@@ -14,16 +15,18 @@
   border-radius: 50%;
   background-color: white;
   position: absolute;
-  top: 90px;
+  top: 160px;
   left: 100px;
   z-index: 1;
 }
 .borderFoto {
   /* background-color: rgb(58,84,180, 0.2); */
+
   width: 100%;
   height: 330px;
-  background-image: url("../../media/fondo4.jpg");
-  background-size: cover;
+  /* background-image: url("../../media/fondo22.webp");
+  background-size: cover; */
+  background-color: rgba(255, 217, 0, 0.6);
 }
 
 .fotoPerfil img {
@@ -47,8 +50,10 @@
   grid-column: 1span;
   background-color: white;
   width: 350px;
-  height: 1400px;
+  height: auto;
   margin-left: 30px;
+  margin-top: 100px;
+  overflow: hidden;
 }
 
 .informacion {
@@ -107,6 +112,7 @@
 .caracteristicas {
   grid-column: 2 span;
   width: 95%;
+  margin-top: 100px;
 }
 
 .descripcion {
@@ -159,25 +165,6 @@
   font-family: "Nunito", sans-serif;
 }
 
-.reputacion {
-  margin: 20px;
-  width: 95%;
-  height: auto;
-  background-color: white;
-  padding-bottom: 10px;
-  /* box-shadow: 1px 1px 5px rgb(0, 0, 0); */
-}
-.reputacion h2 {
-  padding: 10px;
-  font-family: "Work Sans", sans-serif;
-  color: rgb(58, 84, 180);
-}
-
-.reputacion p {
-  font-size: 30px;
-  padding: 5px;
-  font-family: "Nunito", sans-serif;
-}
 
 .galeria {
   display: grid;
@@ -330,7 +317,10 @@
 .preferencias {
   line-height: 30px;
   padding: 10px;
-  background-color:rgb(58, 84, 180, 0.4); 
+  /* background-color:rgb(58, 84, 180, 0.4);  */
+  /* background-image: url("../../media/fondo22.webp");
+  background-size: cover; */
+  background-color: rgba(255, 217, 0, 0.6);
   text-align: center;
   font-weight: 600;
 }
@@ -518,13 +508,26 @@
 }
 
 .editchat {
-  position: fixed;
-  background-color: transparent;
-  border: none;
   cursor: pointer;
+  width: 140px;
+  height: 46px;
+  background-color: rgb(58, 84, 180, 0.8);
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
 }
 
-.editContainerChat {
+.btnChat{
+  border: 2px solid aqua;
+  height: 66px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* .editContainerChat {
   position: absolute;
   top: 650px;
   right: 150px;
@@ -538,7 +541,7 @@
   right: 250px;
   cursor: pointer;
   z-index: 1;
-}
+} */
 .btnI {
   background: transparent;
   border: none;
@@ -564,6 +567,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .imagenModal {
   border: 5px solid rgb(58, 84, 180);
   background: rgb(58, 84, 180);
@@ -683,6 +687,7 @@
   background-color: rgb(206, 231, 167);
   margin: 5px 10px 10px 20px;
 }
+
 .comentarios h3 {
   font-size: 25px;
   padding: 10px;
@@ -693,7 +698,7 @@
 }
 
 .comentariosWalker {
-  background-color: rgb(206, 231, 167);
+  background-color: rgba(255, 217, 0, 0.6);
   margin-top: 10px;
 }
 .comentariosWalker h3 {
@@ -706,23 +711,18 @@
 }
 
 .paseos{
-  width: auto;
-  height: 25px;
+  width: 160px;
+  height: 40px;
   background-color: rgb(58, 84, 180, 0.8);
   border: none;
-  padding: 5px 10px 5px 10px;
   text-decoration: none;
-  box-shadow: 1px 1px 2px rgb(0 0 0);
-  margin: 5px 20px 20px 0;
   color: white;
   cursor: pointer;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  margin-left: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.paseos:hover {
-  box-shadow: none;
-}
+
 
 .answer{
   width: auto;
@@ -742,4 +742,10 @@
 }
 .paseos:hover {
   box-shadow: none;
+}
+
+
+.fotoFondo {
+  width: 460px;
+  height: 220px;
 }

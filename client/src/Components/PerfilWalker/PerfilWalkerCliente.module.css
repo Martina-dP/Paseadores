@@ -1,10 +1,8 @@
 .container{
     background-color: rgb(254,247, 237);
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
     z-index: -2;
-    position: absolute;
-    padding: 0
 }
 
 
@@ -22,8 +20,7 @@
     /* background-color: rgb(58,84,180, 0.2); */
     width: 100%;
     height: 330px;
-    background-image: url("../../media/fondo4.jpg");
-   background-size: cover;
+    background-color: rgba(255, 217, 0, 0.6);
 }
 
 .fotoPerfil img {
@@ -47,7 +44,7 @@
     grid-column: 1span;
     background-color: white;
     width: 350px;
-    height:1400px;
+    height: auto;
     margin-left: 30px;
 }
 
@@ -334,21 +331,6 @@
     letter-spacing: 0.5px;
 }
 
-.preferencias{
-    margin-left:30px ;
-    line-height: 30px;
-}
-
-.preferencias button{
-    margin-top: 20px;
-    margin-left: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
 
 .editDescription:hover{
     box-shadow: none;
@@ -357,9 +339,7 @@
     box-shadow: none;
 }
 
-.calendario{
-    width: 95%;
-}
+
 
 .textDescription{
     width:570px ;
@@ -398,16 +378,18 @@
     box-shadow: none;
 }
 
-
-.calendar{
+ .calendar{
     width: 20px;
     height: 20px;
     border-radius: 50%;
     display: inline-block;
     margin-left: 10px;
-    vertical-align: text-bottom;
+    vertical-align: text-bottom; 
 
 }
+
+
+
 .btnPremuim{
     width: 220px;
     height: 35px;
@@ -490,30 +472,6 @@
     border: none;
     cursor: pointer;
 }
-.textDescriptionReputacion{
-    width:570px ;
-    height: auto;
-    margin: 20px;
-
-}
-.textDescriptionReputacion h1{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-
-}
-.textDescriptionReputacion img{
-    width: 50px;
-    margin: 20px;
-}
-
-
-.map{
-
-    margin: 0;
-    width: 250px;
-    height: 200px;
-}
 
 .padding{
     background-color: white;
@@ -527,33 +485,8 @@
     color: rgb(58,84,180);
     margin:10px
     }
-    .paddingWalker{
-    background-color: white;
-    margin: 100px 0px 10px 10px;
-    height: 30%;
-    position: relative;
-    width: 450px;
-    right: 30px;
-    }
-    .paddingWlker h2{
-        color: rgb(58,84,180);
-        margin:10px
-    }
 
-.editchat{
-    position: fixed;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
 
-.editContainerChat{
-    position: absolute;
-    top: 650px;
-    right: 150px;
-    cursor: pointer;
-    z-index: 1;
-}
 .btnI{
     background: transparent;
     border: none;
@@ -697,7 +630,7 @@
   }
 
   .comentarios{
-      background-color: rgb(206, 231, 167);
+    background-color: rgba(255, 217, 0, 0.6);
       margin: 5px 10px 10px 20px;
       }
       .comentarios h3{
@@ -722,4 +655,29 @@
         .comentariosWalker p{
           margin: 20px;
       }
+
+    .noTurno{
+        border: 2px solid black;
+        text-align: center;
+        padding: 4px;
+        background-color: rgb(206, 231, 167);
+    }
   
+
+    .editchat {
+        cursor: pointer;
+        width: 140px;
+        height: 46px;
+        background-color: rgb(58, 84, 180, 0.8);
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+        font-size: 18px;
+      }
+      
+      .btnChat{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }

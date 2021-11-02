@@ -64,7 +64,6 @@ router.get("/", async (req, res) => {
         image: w.image,
         service: w.service,
         ubication: w.ubication,
-        reputation: w.reputation,
         price: w.price,
         premium: w.premium,
         latitude: w.latitude,

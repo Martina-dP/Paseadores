@@ -72,25 +72,7 @@ function Card({
         ) : (
           <img className={styles.image} src={fotoDefault} alt="a" />
         )}
-        <div className={styles.scoreContain}>
-          <h1>{score?.toFixed(1)}</h1>
-          <div className={styles.estrellas}>
-            <img src={estrella} alt="" />
-            {score < 1 && <img src={favorito} alt="sas" />}
-            {score > 1 && score < 2 && <img src={media} alt="" />}
-            {score >= 2 && <img src={estrella} alt="" />}
-            {score < 2 && <img src={favorito} alt="sas" />}
-            {score > 2 && score < 3 && <img src={media} alt="" />}
-            {score >= 3 && <img src={estrella} alt="" />}
-            {score < 3 && <img src={favorito} alt="sas" />}
-            {score > 3 && score < 4 && <img src={media} alt="" />}
-            {score >= 4 && <img src={estrella} alt="" />}
-            {score < 4 && <img src={favorito} alt="sas" />}
-            {score > 4 && score < 5 && <img src={media} alt="" />}
-            {score === 5 && <img src={estrella} alt="" />}
-            {score < 5 && <img src={favorito} alt="sas" />}
-          </div>
-        </div>
+     
       </div>
       <div className={styles.conteinerDerecha}>
         <div className={styles.title}>
